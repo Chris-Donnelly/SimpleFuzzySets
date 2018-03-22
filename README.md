@@ -1,5 +1,5 @@
 # SimpleFuzzySets
-##Basic Fuzzy Set function C++ classes (which can be extended) to get a very basic grasp on the concept
+## Basic Fuzzy Set function C++ classes (which can be extended) to get a very basic grasp on the concept
 
 The fuzzy set functions (here: **triangle**, **trapezoid** and **bell**) are derived from a pure virtual base (**MembershipFunction**) to perform their own logic when queried with a float value.
 
