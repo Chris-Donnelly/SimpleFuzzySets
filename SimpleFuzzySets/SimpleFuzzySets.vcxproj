@@ -142,6 +142,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\BellMembershipFunction.cpp" />
+    <ClCompile Include="src\MembershipFunction.cpp" />
+    <ClCompile Include="src\TrapezoidMemberFunction.cpp" />
+    <ClCompile Include="src\TriangleMembershipFunction.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\BellMembershipFunction.h" />
+    <ClInclude Include="src\MembershipFunction.h" />
+    <ClInclude Include="src\TrapezoidMemberFunction.h" />
+    <ClInclude Include="src\TriangleMembershipFunction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
